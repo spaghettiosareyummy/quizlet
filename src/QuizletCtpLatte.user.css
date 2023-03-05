@@ -1,0 +1,1953 @@
+/* ==UserStyle==
+@name           Quizlet Catppuccin Latte
+@namespace      spaghet
+@version        1.0.0
+@author         Brandon Bowdoin
+==/UserStyle== */
+@-moz-document domain("quizlet.com") {
+    @import url('https://unpkg.com/@catppuccin/palette@0.1.4/css/catppuccin.css');
+
+
+    :root body {
+        color: var(--ctp-latte-text);
+        background: var(--ctp-latte-base);
+    }
+
+    ::selection {
+        background: var(--ctp-latte-blue);
+    }
+
+    .DashboardLayout {
+        background-color: var(--ctp-latte-base) !important;
+    }
+
+    .TopNavigation {
+        background-color: var(--ctp-latte-crust);
+        border-bottom: none;
+    }
+
+    .s19dmjr1 {
+        border: none;
+    }
+
+    .NavigationTab--span {
+        color: var(--ctp-latte-text) !important;
+    }
+
+    .s13oqxd2.NavigationTab:not(.no-highlight):after {
+        background: var(--ctp-latte-overlay2);
+    }
+
+    .e1bxx0ta::after:hover {
+        background: var(--ctp-latte-overlay2);
+    }
+
+    .hri9878 {
+        color: var(--ctp-latte-subtext1);
+    }
+
+    .AssemblyCard {
+        background-color: var(--ctp-latte-mantle);
+        border-color: var(--ctp-latte-mantle);
+        box-shadow: 0 .125rem .5rem 0 var(--ctp-latte-crust);
+    }
+    h5 {
+        color: var(--ctp-latte-text);
+    }
+
+    .CourseOverviewPreviewCard-recommendationTitle {
+        color: var(--ctp-latte-text);
+    }
+
+    .CourseOverviewPreviewCard-recommendationLink:hover {
+        background-color: var(--ctp-latte-crust) !important;
+    }
+
+    .CourseOverviewPreviewCard-subtitle {
+        color: var(--ctp-latte-subtext1);
+    }
+
+    .CourseOverviewPreviewCard-recommendationLabel {
+        color: var(--ctp-latte-subtext1);
+    }
+
+    .CourseOverviewPreviewCard-divider {
+        border: .0625rem solid var(--ctp-latte-mantle);
+    }
+
+    .AssemblySecondaryButton {
+        background-color: var(--ctp-latte-crust);
+    }
+
+    .AssemblyPrimaryButton--default {
+        background-color: var(--ctp-latte-crust);
+        border: .0625rem solid var(--ctp-latte-text);
+    }
+
+    .c1vierhv {
+        border: .125rem dashed var(--ctp-latte-overlay2);
+    }
+
+    .djzjpyv {
+        color: var(--ctp-latte-subtext1);
+    }
+
+    span {
+        color: inherit;
+    }
+
+    .s139vgrg {
+        color: var(--ctp-latte-subtext1);
+    }
+
+    form {
+        background-color: inherit;
+    }
+    input {
+        background-color: var(--ctp-latte-surface0);
+    }
+
+    .b1r2wylq {
+        background-color: var(--ctp-latte-mantle);
+        box-shadow: 0 .125rem .25rem var(--ctp-latte-crust);
+    }
+
+    .AssemblyPill {
+        background-color: var(--ctp-latte-crust);
+    }
+
+    .t7pmw6o {
+        color: var(--ctp-latte-text);
+    }
+
+    .UserLink-username {
+        color: var(--ctp-latte-text) !important;
+    }
+    .UserLink-title {
+        color: var(--ctp-latte-text) !important;
+    }
+    .UILinkBox {
+        background-color: var(--ctp-latte-mantle);
+    }
+
+    .UIBaseCardHeader-info {
+        color: var(--ctp-latte-text) !important;
+    }
+
+    .UIBaseCardHeader-thumbnail {
+        border: var(--ctp-latte-mantle);
+    }
+
+    .a1s81tf6 {
+        background-color: var(--ctp-latte-mantle);
+    }
+
+    .aup4qff {
+        color: var(--ctp-latte-mantle) !important;
+    }
+
+    .illkdv2c {
+        color: var(--ctp-latte-maroon) !important;
+    }
+
+    .react-calendar__month-view__weekdays__weekday {
+        color: var(--ctp-latte-subtext0) !important;
+    }
+
+    .CalendarTile--isCurrentWeek::after {
+        background-color: var(--ctp-latte-text) !important;
+    }
+
+    .CalendarTile--isCurrentWeek {
+        color: var(--ctp-latte-text) !important;
+    }
+
+    .AssemblyIcon--medium {
+        color: inherit;
+    }
+
+    .AssemblyIconButton--tertiary {
+        color: var(--ctp-latte-text);
+    }
+
+    .AssemblyButtonBase--circle {
+        color: var(--ctp-latte-text);
+    }
+
+    .AssemblySecondaryButton {
+        color: var(--ctp-latte-text);
+    }
+
+    .AssemblyPillText {
+        color: var(--ctp-latte-text);
+    }
+
+    .SiteActivity-button.isGlobalNavInExperiment {
+        color: var(--ctp-latte-text);
+    }
+
+    .UIIcon--large {
+        color: var(--ctp-latte-text);
+    }
+
+    .s1da1u6y {
+        background-color: var(--ctp-latte-crust) !important;
+    }
+
+    .CalendarTile--hasEvent {
+        color: var(--ctp-latte-text) !important;
+    }
+
+    .c1qopd51 {
+        color: var(--ctp-latte-maroon) !important;
+    }
+
+    .AssemblyIconButton--primary {
+        background: var(--ctp-latte-base);
+    }
+
+    .AssemblyButtonBase:hover:not([disabled],
+    [aria-disabled=true]) {
+        background: var(--ctp-latte-mantle);
+    }
+
+    .SiteActivity-button {
+        border: .0625rem solid var(--ctp-latte-overlay2);
+        color: var(--ctp-latte-text);
+    }
+
+    .SiteActivity-button:focus,
+    .SiteActivity-button:hover {
+        border: .0625rem solid var(--ctp-latte-overlay0);
+        color: var(--ctp-latte-subtext1);
+    }
+
+    .NotificationBadge-container {
+        background: var(--ctp-latte-overlay2);
+    }
+
+    [d17q91q7][aria-expanded="true"] {
+        background-color: var(--ctp-latte-text) !important;
+    }
+
+    .UILinkBox-link .UILink:active,
+    .UILinkBox-link .UILink:focus,
+    .UILinkBox-link .UILink:hover {
+        border-bottom: .3125rem solid var(--ctp-latte-overlay2);
+    }
+
+    .AssemblySmallCard-hover:hover::after {
+        background-color: var(--ctp-latte-overlay2);
+    }
+
+    .rellgo5 {
+        color: var(--ctp-latte-text);
+    }
+
+    #react-autowhatever-site-header-global-search-autosuggest {
+        background-color: var(--ctp-latte-crust);
+        border: var(--ctp-latte-mantle);
+    }
+
+    .tqxyjjt {
+        color: var(--ctp-latte-text);
+    }
+
+    text {
+        color: var(--ctp-latte-subtext1);
+    }
+
+    li.react-autosuggest__suggestion:hover {
+        background: var(--ctp-latte-mantle);
+    }
+
+    .poy4xqf {
+        background: var(--ctp-latte-crust);
+    }
+
+    .wej97zk {
+        background-color: var(--ctp-latte-crust);
+    }
+
+    .wvbj6cw {
+        background-color: var(--ctp-latte-crust);
+    }
+
+    .poy4xqf {
+        border: .0625rem solid var(--ctp-latte-crust);
+    }
+
+    .c721v4v {
+        color: var(--ctp-latte-text);
+    }
+
+    .c139umgt {
+        color: var(--ctp-latte-text);
+    }
+
+    .t1ow6gy9 {
+        color: var(--ctp-latte-subtext1);
+    }
+
+    .u1jilvfz {
+        background-color: var(--ctp-latte-overlay2);
+    }
+
+
+    .wej97zk:hover {
+        background-color: var(--ctp-latte-mantle);
+    }
+
+    .s1ovpdog {
+        background-color: var(--ctp-latte-mantle) !important;
+        border-top: .0625rem solid var(--ctp-latte-overlay0)
+    }
+
+    .AssemblyMenuItem--title {
+        color: var(--ctp-latte-subtext0) !important;
+    }
+
+    .c1ap9d88:hover {
+        background-color: var(--ctp-latte-base);
+    }
+
+    .c1ap9d88 {
+        background-color: var(--ctp-latte-mantle);
+    }
+
+    .h1hbonvg {
+        background-color: var(--ctp-latte-mantle);
+    }
+
+    .UIBaseCard-labelTag {
+        background-color: var(--ctp-latte-surface0) !important;
+        color: var(--ctp-latte-text);
+    }
+
+    .UIIcon--chevron-right {
+        color: var(--ctp-latte-text);
+    }
+
+    .UIIcon--chevron-left {
+        color: var(--ctp-latte-text);
+    }
+
+    .UIPopover,
+    .UIPopover:after {
+        background-color: var(--ctp-latte-mantle);
+    }
+
+    .UIPopover.UIPopover--mediumShadow {
+        box-shadow: 0 0.125rem 0.25rem var(--ctp-latte-crust);
+    }
+
+    .SetRecommendationCard-contextMenuItem:hover {
+        background-color: var(--ctp-latte-crust);
+    }
+
+    .cxvmyeq {
+        border: .0624rem solid var(--ctp-latte-crust);
+    }
+
+    .wxhi4p:hover {
+        background-color: var(--ctp-latte-mantle);
+    }
+
+    .AssemblyTab {
+        color: var(--ctp-latte-subtext0);
+    }
+
+    .AssemblyTab::after {
+        color: var(--ctp-latte-subtext0);
+    }
+
+    .s4cgp9b.AssemblyTab {
+        color: var(--ctp-latte-text);
+    }
+
+    .AssemblyTab:hover {
+        color: var(--ctp-latte-lavender);
+    }
+
+    .f1ub3img {
+        border-top: .0625rem solid var(--ctp-latte-overlay2);
+    }
+
+    .AssemblyTabsWrapper:before {
+        background-color: var(--ctp-latte-overlay2);
+    }
+
+    .s4cgp9b.AssemblyTab:after {
+        background: var(--ctp-latte-blue);
+    }
+
+    .AssemblyTab:hover:after {
+        background: var(--ctp-latte-blue);
+    }
+
+    .w15oa27z:hover {
+        background: var(--ctp-latte-mantle);
+    }
+
+    .wxhi4p:hover {
+        background: var(--ctp-latte-mantle);
+    }
+
+    .i1v4i7rf.textbookIcon {
+        background-image: url(https://assets.quizlet.com/a/j/dist/app/i/explanations/textbook_night.1ff39f68b703b28.svg);
+    }
+
+    .sinah8x {
+        color: var(--ctp-latte-subtext0);
+    }
+
+    .SetPage {
+        background-color: var(--ctp-latte-base);
+    }
+
+    .SetPage-setIntroWrapper {
+        background-color: var(--ctp-latte-base) !important;
+    }
+
+    .SetPage-setDetailsInfoWrapper {
+        background-color: var(--ctp-latte-base) !important;
+    }
+
+    .SetPage-setDetailsTermsWrapper {
+        background-color: var(--ctp-latte-base) !important;
+    }
+
+    .SetPage-setLinksWrapper {
+        background-color: var(--ctp-latte-base) !important;
+    }
+
+    .SiteFooter {
+        background-color: var(--ctp-latte-base);
+        color: var(--ctp-latte-text);
+    }
+
+    .SiteFooter-bottom {
+        background-color: var(--ctp-latte-base);
+    }
+
+    .SetPageStickyHeader.is-pinned {
+        background-color: var(--ctp-latte-crust);
+    }
+
+    .StudyModesNavItem {
+        background-color: var(--ctp-latte-mantle);
+    }
+
+    .StudyModesNavItemName {
+        color: var(--ctp-latte-text);
+    }
+
+    .StudyModesNavItemName:visited {
+        color: var(--ctp-latte-text);
+    }
+
+    .c78g08u {
+        background-color: var(--ctp-latte-mantle);
+        box-shadow: 0 .25rem 1rem 0 var(--ctp-latte-crust);
+    }
+
+    .o1rf13bx {
+        color: var(--ctp-latte-text);
+    }
+
+    .lck97c5 {
+        background: var(--ctp-latte-mantle);
+    }
+
+    .UISwitch-label {
+        background-color: var(--ctp-latte-mantle) !important;
+    }
+
+    .SetPageTerm {
+        background: var(--ctp-latte-mantle);
+    }
+
+    .AssemblyIconButton--secondary {
+        background: var(--ctp-latte-crust);
+    }
+
+    .UIDropdown--inverted {
+        background: var(--ctp-latte-base) !important;
+    }
+
+    .UIDropdown-select {
+        color: var(--ctp-latte-text) !important;
+    }
+
+    .soyu1j6 {
+        color: var(--ctp-latte-maroon) !important;
+    }
+
+    .s1e29328.cbb9lkx {
+        color: var(--ctp-latte-red);
+        background: var(--ctp-latte-rosewater);
+        border-color: var(--ctp-latte-peach);
+    }
+
+    .kahyre1 {
+        color: var(--ctp-latte-green) !important;
+    }
+
+    .kzo3tk {
+        color: var(--ctp-latte-green) !important;
+        /*yes i know this is latte i dont have a replacement*/
+    }
+
+    .NotificationBadge-container {
+        background-color: var(--ctp-latte-blue) !important;
+    }
+
+    .hgmlhdt {
+        background-color: var(--ctp-latte-crust);
+    }
+
+    .o1rfl3bx {
+        color: var(--ctp-latte-text);
+        border: .125rem solid var(--ctp-latte-overlay2);
+    }
+
+    .c1lf7cxm {
+        color: var(--ctp-latte-subtext0);
+    }
+
+    .l3ucz5w {
+        color: var(--ctp-latte-subtext1);
+    }
+
+    .u3v4pv0 {
+        color: var(--ctp-latte-subtext0);
+    }
+
+    .StudyModesNavItem:hover {
+        border-bottom-color: var(--ctp-latte-overlay2);
+    }
+
+    .o1g4qwv {
+        background-color: var(--ctp-latte-crust);
+    }
+
+    .tqyy7cr.h19ive8k {
+        color: var(--ctp-latte-text);
+    }
+
+    .t1kgxwr0 {
+        color: var(--ctp-latte-text);
+    }
+
+    .tuxzbsj {
+        fill: var(--ctp-latte-text);
+    }
+
+    .c5iom2o {
+        color: var(--ctp-latte-lavender);
+    }
+
+    .lck97c5:focus .c5iom2o,
+    .lck97c5:hover .c5iom2o {
+        color: var(--ctp-latte-blue);
+    }
+
+    .t4sjwm7 {
+        color: var(--ctp-latte-text);
+    }
+
+    body.colorRefresh-setPageOnly .UISwitch-label {
+        color: var(--ctp-latte-text);
+    }
+
+    .UISwitch-input:hover:not(:disabled) ~ .UISwitch-label {
+        color: var(--ctp-latte-yellow);
+    }
+
+    .UISwitch-label {
+        border: .125rem solid var(--ctp-latte-overlay1);
+    }
+
+    .SetPageTerm-sideContent {
+        border-right: .125rem solid var(--ctp-latte-overlay2);
+    }
+
+    .UISwitch-input:checked:not(:disabled) ~ .UISwitch-label {
+        color: var(--ctp-latte-mantle);
+        border-color: var(--ctp-latte-yellow);
+        background-color: var(--ctp-latte-yellow) !important;
+    }
+
+    .AssemblyIconButton--highlight {
+        background: none;
+        color: var(--ctp-latte-yellow) !important;
+    }
+
+    .UIToggle-optionInput:hover:not(:disabled) ~ .UIToggle-optionLabel {
+        color: var(--ctp-latte-yellow);
+    }
+
+    .UIToggle-optionInput:checked:not(:disabled) ~ .UIToggle-optionLabel {
+        background-color: var(--ctp-latte-yellow);
+        color: var(--ctp-latte-mantle);
+    }
+
+    .UIToggle-optionLabel {
+        background-color: var(--ctp-latte-mantle);
+        color: var(--ctp-latte-blue);
+    }
+
+    .AssemblyIconButton--highlight:hover:not([disabled],
+    [aria-disabled=true]) {
+        background-color: var(--ctp-latte-crust);
+    }
+
+    .AssemblyIconButton--tertiary:hover:not([disabled],
+    [aria-disabled=true]) {
+        background-color: var(--ctp-latte-crust);
+    }
+
+    .AssemblyButtonBase--square {
+        color: var(--ctp-latte-text);
+    }
+
+    .z1x1k8pd.svwhkoh {
+        color: var(--ctp-latte-green);
+        border: .0625rem solid var(--ctp-latte-green);
+    }
+
+    .svwhkoh {
+        background-color: var(--ctp-latte-mantle);
+    }
+
+    .kzo3tk.cbb9lkx {
+        background: var(--ctp-latte-green);
+        border-color: var(--ctp-latte-green);
+        color: var(--ctp-latte-text);
+    }
+
+    .axrvw3e.s1e29328.cbb9lkx {
+        background: var(--ctp-latte-flamingo);
+        border-color: var(--ctp-latte-flamingo);
+        color: var(--ctp-latte-red);
+    }
+
+    .mnlifen {
+        background: var(--ctp-latte-mantle);
+    }
+
+    .f1yw38c3 {
+        background: none
+    }
+
+    .AssemblyToggleSwitch-input:checked + .AssemblyToggleSwitch-fauxInput {
+        background: var(--ctp-latte-lavender);
+    }
+
+    .AssemblyToggleSwitch-input:checked + .AssemblyToggleSwitch-fauxInput:after {
+        background-color: var(--ctp-latte-pink);
+    }
+
+    .AssemblyToggleSwitch-fauxInput {
+        background: var(--ctp-latte-overlay1);
+    }
+
+    .AssemblyToggleSwitch-fauxInput:after {
+        background: var(--ctp-latte-lavender);
+    }
+
+    .c13e2cpr {
+        background-color: var(--ctp-latte-mantle);
+        color: var(--ctp-latte-text);
+    }
+
+    .AssemblyInput {
+        background-color: var(--ctp-latte-surface0);
+        color: var(--ctp-latte-text);
+    }
+
+    .AssemblyInput-input {
+        color: var(--ctp-latte-subtext1);
+    }
+
+    .a1k2umqi {
+        background-color: var(--ctp-latte-crust);
+    }
+
+    .bxtl8jy {
+        background-color: var(--ctp-latte-surface0);
+        color: var(--ctp-latte-text);
+    }
+
+    .ah6785x {
+        color: var(--ctp-latte-subtext1);
+    }
+
+    .a1fcz3cu:focus-within > .ah6785x {
+        color: var(--ctp-latte-subtext1);
+    }
+
+    .e29yge6 .react-autosuggest__container .react-autosuggest__suggestions-container--open {
+        background: var(--ctp-latte-mantle);
+    }
+
+    .e1g8wmc7 {
+        background-color: var(--ctp-latte-surface0);
+    }
+
+    .AssemblyLink--secondary:hover {
+        color: var(--ctp-latte-peach);
+    }
+
+    .a1k2umqi:focus-within {
+        border-bottom: .125rem solid var(--ctp-latte-blue);
+    }
+
+    .cgyrcnx {
+        background-color: var(--ctp-latte-overlay2);
+    }
+
+    .byhd60 {
+        background-color: var(--ctp-latte-maroon);
+    }
+
+    .d11ucs5j {
+        background: var(--ctp-latte-overlay2);
+    }
+
+    .sjsxdsz {
+        border-bottom: .0625rem solid var(--ctp-latte-overlay2);
+    }
+
+    .fz4nps6 {
+        border-top: .0625rem solid var(--ctp-latte-overlay2);
+    }
+
+    .AssemblyPrimaryButton--default:disabled,
+    .AssemblyPrimaryButton--default[aria-disabled=true] {
+        background: var(--ctp-latte-surface0);
+        border-color: var(--ctp-latte-base);
+        color: var(--ctp-latte-subtext0)
+    }
+
+    .ptc18zm {
+        background: inherit;
+    }
+
+    .c1gi3y8b {
+        background: var(--ctp-latte-crust);
+    }
+
+    .k3lm6f3 {
+        background-color: var(--ctp-latte-crust);
+        color: var(--ctp-latte-text);
+    }
+
+    .w1uwrq7e {
+        color: var(--ctp-latte-text);
+        border: .125rem solid var(--ctp-latte-overlay2);
+    }
+
+    .t1d08860 {
+        color: inherit;
+    }
+
+    .i1p8x1gp .i1e9rt5 {
+        color: var(--ctp-latte-maroon);
+    }
+
+    .i1p8x1gp {
+        background-color: var(--ctp-latte-mantle);
+    }
+
+    .i1p8x1gp,
+    .i1p8x1gp:focus,
+    .i1p8x1gp:hover {
+        border-color: var(--ctp-latte-maroon);
+    }
+
+    .cv1rd7s {
+        background: var(--ctp-latte-mantle);
+    }
+
+    .cv1rd7s,
+    .cv1rd7s:focus,
+    .cv1rd7s:hover {
+        border-color: var(--ctp-latte-green);
+    }
+
+    .cv1rd7s .i1e9rt5 {
+        color: var(--ctp-latte-green);
+    }
+
+    .b1jcf4jl {
+        background-color: var(--ctp-latte-crust);
+    }
+
+    .pck8ctn {
+        color: var(--ctp-latte-text);
+    }
+
+    .i6cf9vy {
+        color: var(--ctp-latte-red);
+    }
+
+    .c2mfnz6 {
+        color: var(--ctp-latte-green);
+    }
+
+    .pr2w5fu:first-child {
+        border-right: .125rem solid var(--ctp-latte-overlay2)
+    }
+
+    .t117larf {
+        background-color: var(--ctp-latte-crust);
+        border: .0625rem solid var(--ctp-latte-overlay2);
+        color: var(--ctp-latte-text);
+    }
+
+    .q1m09plc:hover {
+        background-color: var(--ctp-latte-crust);
+    }
+
+    .q1m09plc {
+        color: var(--ctp-latte-blue);
+    }
+
+    .hbcu5v.q1m09plc {
+        color: var(--ctp-latte-subtext1);
+    }
+
+    .qzk5crt {
+        color: var(--ctp-latte-text);
+    }
+
+    .sd72jj0 {
+        color: var(--ctp-latte-subtext1);
+    }
+
+    .UIModalHeader {
+        background-color: var(--ctp-latte-crust);
+    }
+
+    .UIModalBody {
+        background-color: var(--ctp-latte-mantle);
+    }
+
+    .TestModeOptions {
+        background-color: var(--ctp-latte-mantle);
+    }
+
+    .UIModal-box {
+        color: var(--ctp-latte-text);
+    }
+
+    .UICheckbox-label {
+        color: var(--ctp-latte-text);
+    }
+
+    .UICheckbox-input:checked ~ .UICheckbox-fauxInput {
+        border-color: var(--ctp-latte-yellow);
+    }
+
+    .s19dmjr1 {
+        background: var(--ctp-latte-surface0);
+    }
+
+    .UIButton,
+    .UIButton:visited,
+    html.touch .UIButton:focus:hover:not(:active) {
+        background-color: var(--ctp-latte-blue);
+    }
+
+    .UICheckbox-fauxInput:after {
+        border: .125rem solid var(--ctp-latte-yellow);
+        border-width: 0 0 .125rem .125rem;
+    }
+
+    .UIInput-input {
+        color: var(--ctp-latte-text);
+    }
+
+    .UIInput[aria-invalid=false] .UIInput-input ~ .UIInput-border {
+        box-shadow: 0 .125rem 0 0 var(--ctp-latte-overlay2);
+    }
+
+    .UILink,
+    .UILink:visited {
+        color: var(--ctp-latte-rosewater);
+    }
+
+    .UIButton:active,
+    html.cursor .UIButton:hover,
+    html.cursor .UIButton:hover:visited {
+        background-color: var(--ctp-latte-sky);
+    }
+
+    .UIButton--inverted,
+    .UIButton--inverted:visited,
+    html.touch .UIButton--inverted:focus:hover:not(:active) {
+        box-shadow: inset 0 0 0 3px var(--ctp-latte-overlay0);
+    }
+
+    .UIHorizontalRule {
+        border-bottom: .0625rem solid var(--ctp-latte-overlay2);
+    }
+
+    .OptionsModal-description,
+    .TestModeOptions-listOption-description {
+        color: var(--ctp-latte-subtext0);
+    }
+
+    .swjz05g {
+        background-color: var(--ctp-latte-crust);
+    }
+
+    .swjz05g,
+    .swjz05g:focus,
+    .swjz05g:hover {
+        border-color: var(--ctp-latte-blue);
+    }
+
+    .s2y71yx label {
+        background: var(--ctp-latte-surface0);
+    }
+
+    .s2y71yx input {
+        background: inherit;
+    }
+
+    .UIButton--borderless,
+    .UIButton--borderless:visited,
+    html.touch .UIButton--borderless:focus:hover:not(:active) {
+        background: none;
+    }
+
+    .TextbookRecommendations {
+        background: var(--ctp-latte-crust);
+    }
+
+    .TextbookCard-Details {
+        color: var(--ctp-latte-subtext1);
+    }
+
+    .AssemblyLink--title:any-link {
+        color: var(--ctp-latte-text);
+    }
+
+    .AssemblyLink--title:hover {
+        color: var(--ctp-latte-yellow);
+    }
+    /*     .AssemblyIcon--small {
+        color: var(--ctp-latte-lavender);
+    } */
+    .a99ei82 {
+        background-color: var(--ctp-latte-mantle);
+    }
+
+    .ah3z5j1 {
+        border: .125rem solid var(--ctp-latte-blue);
+    }
+
+    .hkyil8p {
+        color: var(--ctp-latte-blue);
+    }
+
+    .e17gih4t {
+        border: .125rem dashed var(--ctp-latte-overlay2);
+    }
+
+    .o1q1tz6w {
+        border: .0625rem solid var(--ctp-latte-overlay2);
+        color: var(--ctp-latte-text);
+    }
+
+    .hg3d33q {
+        border-color: #0000;
+    }
+
+    .ser6cev,
+    .c86ukn8 {
+        color: var(--ctp-latte-subtext0);
+    }
+
+    .a99ei82 {
+        border: .125rem solid var(--ctp-latte-overlay2);
+    }
+
+    .qcpiy8g {
+        color: var(--ctp-latte-text);
+    }
+
+    .pqa404y {
+        color: var(--ctp-latte-green);
+    }
+
+    .s18c8hjh {
+        color: var(--ctp-latte-maroon);
+    }
+
+    .ljt3l6v {
+        fill: var(--ctp-latte-subtext0);
+    }
+
+    .c16l7630.iayao2g {
+        color: var(--ctp-latte-green);
+    }
+
+    .i1e9dzkh.iayao2g {
+        color: var(--ctp-latte-maroon);
+    }
+
+    .w1e3jc65 {
+        background-color: var(--ctp-latte-mantle);
+        border: .125rem solid var(--ctp-latte-mantle);
+    }
+
+    .t7fr19y {
+        color: var(--ctp-latte-lavender);
+    }
+
+    .dw1ojws {
+        color: var(--ctp-latte-subtext0);
+    }
+
+    .w1e3jc65:hover {
+        border: .125rem solid var(--ctp-latte-overlay2);
+    }
+
+    .q1nxab59 {
+        color: var(--ctp-latte-subtext1);
+    }
+
+    .ssbjprp {
+        color: var(--ctp-latte-subtext0);
+    }
+
+    .smvj06a {
+        color: var(--ctp-latte-subtext1);
+    }
+
+    .cfzatrd.a548wz9 {
+        color: var(--ctp-latte-green);
+    }
+
+    .cag3g2z.anp68o5 {
+        color: var(--ctp-latte-green);
+    }
+
+    .CombinePage-wrap {
+        background-color: var(--ctp-latte-base);
+    }
+
+    .CombinePageTable-row {
+        background-color: var(--ctp-latte-mantle);
+    }
+
+    .CombinePageTable-rowTermCount {
+        color: var(--ctp-latte-subtext1);
+    }
+
+    .CombinePageTable-setTitle .UIHeading--four {
+        color: var(--ctp-latte-text);
+    }
+
+    .UIDropdown {
+        background: var(--ctp-latte-mantle);
+        border: .125rem solid var(--ctp-latte-crust);
+    }
+
+    .UIDropdown .UIDropdown-icon {
+        color: var(--ctp-latte-overlay2);
+    }
+
+    .UIDropdown-select:focus option {
+        background: var(--ctp-latte-mantle);
+    }
+
+    option:hover {
+        background: var(--ctp-latte-crust);
+    }
+
+    .ModeControls {
+        background-color: var(--ctp-latte-mantle);
+    }
+
+    .ModeControls-backText {
+        color: var(--ctp-latte-text);
+    }
+
+    .ModeControls-back {
+        border-bottom: 1px solid var(--ctp-latte-overlay2);
+    }
+
+    .UIButton--whiteBorder {
+        background: var(--ctp-latte-crust) !important;
+        border: .125rem solid var(--ctp-latte-base);
+        color: var(--ctp-latte-text) !important;
+    }
+
+    .MatchModeControls-currentTime {
+        color: var(--ctp-latte-blue);
+    }
+
+    .MatchModeQuestionScatterTile {
+        background-color: var(--ctp-latte-mantle);
+        border: .125rem solid var(--ctp-latte-overlay0);
+    }
+
+    .MatchModeQuestionScatterTile.is-draggedOver,
+    .MatchModeQuestionScatterTile.is-dragging,
+    .MatchModeQuestionScatterTile:hover {
+        border-color: var(--ctp-latte-overlay2);
+    }
+
+    .MatchModeQuestionScatterTile.is-incorrect {
+        border-color: var(--ctp-latte-maroon);
+    }
+
+    .MatchModeQuestionScatterTile.is-correct {
+        border-color: var(--ctp-latte-green);
+    }
+
+    .HighscoresList {
+        background-color: var(--ctp-latte-crust);
+    }
+
+    .HighscoreRow {
+        background-color: var(--ctp-latte-mantle);
+    }
+
+    .UIButton[aria-disabled=true],
+    .UIButton[aria-disabled=true]:active,
+    .UIButton[aria-disabled=true]:focus,
+    .UIButton[aria-disabled=true]:visited,
+    .UIButton[disabled],
+    .UIButton[disabled]:active,
+    .UIButton[disabled]:focus,
+    .UIButton[disabled]:visited,
+    html.cursor .UIButton[aria-disabled=true]:hover,
+    html.cursor .UIButton[disabled]:hover {
+        background-color: var(--ctp-latte-mantle);
+    }
+
+    .t10tqhey {
+        background-color: var(--ctp-latte-mantle);
+        color: var(--ctp-latte-text);
+        border-color: var(--ctp-latte-crust);
+    }
+
+    .t9i9vmb.h19ive8k,
+    .t1s26kx5.h19ive8k,
+    .s1rx7q8q.h19ive8k {
+        color: var(--ctp-latte-text);
+    }
+
+    .s8j1d54,
+    .c49e2ip {
+        color: var(--ctp-latte-subtext1);
+    }
+
+    .c6p6uaq .react-calendar__month-view__days__day {
+        color: var(--ctp-latte-text);
+    }
+
+    .c6p6uaq .react-calendar__month-view__days__day--neighboringMonth {
+        color: var(--ctp-latte-subtext0);
+    }
+
+    .AchievementsImage--isActive .a130rwfv,
+    .al33ekg.isActive .a130rwfv {
+        color: var(--ctp-latte-subtext0);
+    }
+
+    .s1rtnf4c:before,
+    .s1rtnf4c:after {
+        background: none;
+    }
+
+    .AchievementsImage--isActive .a130rwfv,
+    .al33ekg.isActive .a130rwfv,
+    .DashboardLayout .SetPreviewLink--noLinkBox,
+    .DashboardLayout .PreviewCard--noLinkBox {
+        background-color: var(--ctp-latte-mantle);
+    }
+
+    .SetPreview-queryMatchHighlight {
+        background: var(--ctp-latte-yellow);
+        color: var(--ctp-latte-base);
+    }
+
+    .cpey3pe {
+        color: var(--ctp-latte-text);
+    }
+
+    .s1fl65t6 {
+        color: var(--ctp-latte-subtext0);
+    }
+
+    .t1ne2oir {
+        color: var(--ctp-latte-text);
+    }
+
+    .b1xq6unb {
+        color: var(--ctp-latte-text);
+    }
+
+    .bp0a7jj {
+        color: var(--ctp-latte-subtext1);
+    }
+
+    .pltikop {
+        color: var(--ctp-latte-blue);
+    }
+
+    .SettingsBox-box {
+        background-color: var(--ctp-latte-mantle);
+    }
+
+    .EdgyDataCoursePillbox .UIPill {
+        background: var(--ctp-latte-crust);
+        border: 1px solid var(--ctp-latte-overlay2)
+    }
+
+    .UIAutosuggest .react-autosuggest__suggestions-container {
+        background: var(--ctp-latte-mantle);
+    }
+
+    .UIAutosuggest .react-autosuggest__suggestion {
+        border-bottom: .125rem solid var(--ctp-latte-overlay2);
+    }
+
+    .UIAutosuggest .react-autosuggest__suggestion.react-autosuggest__suggestion--highlighted {
+        border-bottom: .125rem solid var(--ctp-latte-yellow);
+    }
+
+    .EdgyDataCourseSelector-suggestion .EdgyDataCourseSelector-suggestionName {
+        color: var(--ctp-latte-text);
+    }
+
+    .UIInput-input.UIInput-autoExpandInput.is-focused ~ .UIInput-border,
+    .UIInput-input:focus ~ .UIInput-border {
+        box-shadow: 0 .25rem 0 0 var(--ctp-latte-yellow);
+    }
+
+    .Divider-label {
+        background: var(--ctp-latte-mantle);
+    }
+
+    .UIButton,
+    .UIButton:visited,
+    html.touch .UIButton:focus:hover:not(:active) {
+        color: inherit;
+    }
+
+    .the-label,
+    .UIButton {
+        color: var(--ctp-latte-crust);
+    }
+
+    input:checked + .p22broa {
+        box-shadow: 0 0 0 .25rem var(--ctp-latte-blue);
+    }
+
+    .button.google {
+        background-color: var(--ctp-latte-red);
+        border-color: var(--ctp-latte-peach);
+    }
+
+    .button.google:after {
+        border-right: 1px solid var(--ctp-latte-peach);
+    }
+
+    .b1opuclq {
+        background-color: var(--ctp-latte-crust);
+        box-shadow: 0 .25rem 1rem 0 var(--ctp-latte-crust);
+    }
+
+    .button.apple .label,
+    .button.facebook .label,
+    .button.google .label {
+        color: var(--ctp-latte-crust);
+    }
+
+    .button.facebook {
+        background-color: var(--ctp-latte-blue);
+        border-color: var(--ctp-latte-lavender);
+    }
+
+    .button.facebook:after {
+        border-right: 1px solid var(--ctp-latte-lavender);
+    }
+
+    .UIInput-input:-webkit-autofill,
+    .UIInput-input:-webkit-autofill:focus,
+    .UIInput-input:-webkit-autofill:hover {
+        box-shadow: 0 0 0 var(--ctp-latte-crust) inset!important;
+        -webkit-box-shadow: 0 0 0 var(--ctp-latte-crust) inset!important;
+    }
+
+    .UIInput-input:-internal-autofill-previewed,
+    .UIInput-input:-internal-autofill-selected {
+        -webkit-text-fill-color: var(--ctp-latte-text);
+    }
+
+    .UILink:active,
+    html.cursor .UILink:hover,
+    html.cursor .UILink:hover:visited {
+        color: var(--ctp-latte-maroon);
+    }
+
+    .setting legend,
+    .setting p {
+        color: var(--ctp-latte-text);
+    }
+
+    .UIButton-wrapper {
+        color: inherit;
+    }
+
+    .UIButton--alert:active,
+    html.cursor .UIButton--alert:hover,
+    html.cursor .UIButton--alert:hover:visited {
+        background-color: var(--ctp-latte-maroon);
+    }
+
+    .UIButton--alert,
+    .UIButton--alert:visited,
+    html.touch .UIButton--alert:focus:hover:not(:active) {
+        background-color: var(--ctp-latte-red);
+    }
+
+    .c1qo8ql4 {
+        background-color: var(--ctp-latte-base);
+    }
+
+    .phx9gy6 {
+        color: var(--ctp-latte-text);
+    }
+
+    .soad3d7 {
+        color: var(--ctp-latte-text);
+    }
+
+    .AssemblyLink--primary:any-link {
+        color: var(--ctp-latte-rosewater) !important;
+    }
+
+    .AssemblyLink {
+        color: var(--ctp-latte-rosewater);
+    }
+
+    .UIButton--borderless,
+    .UIButton--borderless:visited,
+    html.touch .UIButton--borderless:focus:hover:not(:active) {
+        background-color: initial;
+        color: inherit;
+    }
+
+    .UIButton--borderless:active,
+    html.cursor .UIButton--borderless:hover,
+    html.cursor .UIButton--borderless:hover:visited {
+        background-color: initial;
+        color: var(--ctp-latte-yellow);
+    }
+
+    .UIButton--borderless[aria-disabled=true],
+    .UIButton--borderless[aria-disabled=true]:active,
+    .UIButton--borderless[aria-disabled=true]:focus,
+    .UIButton--borderless[aria-disabled=true]:visited,
+    .UIButton--borderless[disabled],
+    .UIButton--borderless[disabled]:active,
+    .UIButton--borderless[disabled]:focus,
+    .UIButton--borderless[disabled]:visited,
+    html.cursor .UIButton--borderless[aria-disabled=true]:hover,
+    html.cursor .UIButton--borderless[disabled]:hover {
+        background-color: initial;
+    }
+
+    .s19dmjr1.isGlobalNavInExperiment.is-focused,
+    .s19dmjr1.isGlobalNavInExperiment.is-focused input {
+        background: var(--ctp-latte-surface0);
+    }
+
+    .t1iqlnnn p {
+        color: var(--ctp-latte-subtext1);
+    }
+
+    .axupt8p,
+    .igkckaz {
+        color: var(--ctp-latte-rosewater);
+    }
+
+    .axupt8p:active,
+    .axupt8p:focus,
+    .axupt8p:hover {
+        color: var(--ctp-latte-flamingo);
+    }
+
+    .cnuw08l {
+        background-color: var(--ctp-latte-mantle);
+    }
+
+    .c192jkj8 {
+        color: var(--ctp-latte-text);
+    }
+
+    .a1sd82zg {
+        background-color: var(--ctp-latte-crust);
+        border-left-color: var(--ctp-latte-lavender);
+    }
+
+    .g84nzqs {
+        background-image: none;
+    }
+
+    .du7o3ew > div:not(:last-child) {
+        border-right: .0625rem solid var(--ctp-latte-overlay2);
+    }
+
+    .i73vo82:hover {
+        color: var(--ctp-latte-crust);
+        background-color: var(--ctp-latte-crust);
+    }
+
+    .f2nmi2p {
+        border-top: .0625rem solid var(--ctp-latte-overlay2);
+    }
+
+    .a1scx0nz {
+        background-color: var(--ctp-latte-mantle);
+    }
+
+    .a4ouqer {
+        color: var(--ctp-latte-text);
+    }
+
+    .t104cykg {
+        color: var(--ctp-latte-text);
+    }
+
+    .ExplanationsLandingPage #PrismicExplanationsSearchBarTarget label,
+    .ExplanationsLandingPage #SearchBarTarget label,
+    .explanations.prismic-page #PrismicExplanationsSearchBarTarget label,
+    .explanations.prismic-page #SearchBarTarget label {
+        background-color: var(--ctp-latte-surface0);
+    }
+
+    .l1rgb1ub {
+        border-color: var(--ctp-latte-overlay2);
+    }
+
+    .theme-night .h1uvmh9x,
+    .h1uvmh9x {
+        background: var(--ctp-latte-mantle);
+    }
+
+    .h1ebmrjk {
+        background: linear-gradient(180deg, #0000 69.83%, var(--ctp-latte-base) 100%);
+    }
+
+    .jqcfj5w {
+        filter: brightness(0) saturate(100%) invert(12%) sepia(5%) saturate(4408%) hue-rotate(195deg) brightness(93%) contrast(90%);
+    }
+
+    .h1wn8ccf {
+        color: var(--ctp-latte-text);
+    }
+
+    .ccm0r9d {
+        color: var(--ctp-latte-subtext0);
+    }
+
+    .AssemblySmallCard-isActive:after {
+        background-color: var(--ctp-latte-lavender);
+    }
+
+    .i192320l {
+        border: .125rem solid var(--ctp-latte-mantle);
+    }
+
+    .b1j40uwt:before {
+        background-color: var(--ctp-latte-mantle);
+    }
+
+    .theme-night .g84nzqs {
+        background: none;
+    }
+
+    .CreateSetHeader-sticky {
+        background: var(--ctp-latte-base);
+    }
+
+    .a1fcz3cu {
+        background-color: var(--ctp-latte-surface0);
+    }
+
+    .CreateSetHeader-permissionsLink {
+        color: var(--ctp-latte-subtext1);
+    }
+
+    .CreateSetDiagramUploader .UIFloatedCard--white,
+    .TermContent-inner {
+        background-color: var(--ctp-latte-mantle);
+    }
+
+    .CreateSetDiagramUploader-banner {
+        border-color: var(--ctp-latte-overlay0);
+    }
+
+    .AssemblyIconButton--primaryInverted {
+        border: .0625rem solid var(--ctp-latte-overlay2);
+    }
+
+    .StudiableItemToolbar {
+        border-bottom: 2px solid var(--ctp-latte-overlay2);
+    }
+
+    .b18prmdf {
+        box-shadow: 0 .125rem 0 0 var(--ctp-latte-overlay2);
+    }
+
+    .ImageUploadProminentContextToggle {
+        border: .125rem dashed var(--ctp-latte-overlay0);
+    }
+
+    .UILinkButton {
+        border-bottom: .3125rem solid var(--ctp-latte-blue);
+    }
+
+    .p10i2lyl {
+        background-color: var(--ctp-latte-mantle);
+    }
+
+    * + .KeyboardShortcuts-shortcut,
+    .KeyboardShortcuts-shortcut + *,
+    .KeyboardShortcuts-shortcut + .KeyboardShortcuts-shortcut {
+        border-top-color: var(--ctp-latte-overlay2);
+    }
+
+    .UIKeyboardInput {
+        color: var(--ctp-latte-text);
+        border-color: var(--ctp-latte-overlay2)
+    }
+
+    .UIDropdown-select option {
+        color: var(--ctp-latte-text);
+    }
+
+    .UIButton--inverted:active,
+    html.cursor .UIButton--inverted:hover,
+    html.cursor .UIButton--inverted:hover:visited {
+        box-shadow: inset 0 0 0 3px var(--ctp-latte-overlay2);
+    }
+
+    .PMEditor:focus-within ~ .b18prmdf {
+        box-shadow: 0 0.25rem 0 0 var(--ctp-latte-yellow);
+    }
+
+    .UITooltip,
+    .UITooltip:after {
+        background: var(--ctp-latte-crust);
+    }
+
+    :not(.ie11) .UITooltip,
+    :not(.ie11) .UIPopover {
+        filter: none;
+    }
+
+    .LanguageSelect-option:hover,
+    .Select-option.is-focused .LanguageSelect-option {
+        background-color: var(--ctp-latte-yellow);
+    }
+
+    .i1u1jhdl {
+        background-color: var(--ctp-latte-crust);
+    }
+
+    .TermRowDragPlaceholder {
+        background: var(--ctp-latte-base);
+    }
+
+    .CreateSetDiagramUploader-banner.is-dropTarget {
+        border-color: var(--ctp-latte-yellow);
+    }
+
+    .TermContent-addRow:hover .UILinkButton {
+        border-bottom-color: var(--ctp-latte-yellow);
+    }
+
+    .tetv1rf.t8spden:hover {
+        background-color: var(--ctp-latte-crust);
+    }
+
+    .ImportTerms {
+        background-color: var(--ctp-latte-base);
+    }
+
+    .ImportTerms-import,
+    .ImportTerms-preview {
+        background-color: var(--ctp-latte-base);
+    }
+
+    .ImportTerms-textarea {
+        color: var(--ctp-latte-text);
+        border-color: var(--ctp-latte-overlay2)
+    }
+
+    .TermRowsPreview .TermRowsPreview-row {
+        background: var(--ctp-latte-mantle);
+    }
+
+    .UIRadio-input:checked ~ .UIRadio-fauxInput {
+        border-color: var(--ctp-latte-yellow)
+    }
+
+    .UIRadio-fauxInput:after {
+        background-color: var(--ctp-latte-yellow);
+    }
+
+    .UILinkButton:active,
+    .UILinkButton:focus,
+    .UILinkButton:hover {
+        border-bottom-color: var(--ctp-latte-yellow);
+    }
+
+    .RichTextEditor[aria-invalid=true]:not([aria-disabled=true]) .RichTextEditor-label,
+    .LanguageBarSide.has-error .UILink,
+    .LanguageBarSide.has-error select {
+        color: var(--ctp-latte-maroon);
+    }
+
+    .AutosuggestContextItem {
+        background-color: var(--ctp-latte-crust);
+        color: var(--ctp-latte-text);
+    }
+
+    .AssemblyNotice-error {
+        border-color: var(--ctp-latte-red);
+        background-color: var(--ctp-latte-surface0);
+    }
+
+    .TermRow.is-duplicate {
+        outline: .125rem solid var(--ctp-latte-yellow);
+    }
+
+    .AssemblyPrimaryButton--danger {
+        background: var(--ctp-latte-red);
+        color: var(--ctp-latte-crust);
+    }
+
+    .AssemblyPrimaryButton--danger:hover:not([disabled],
+    [aria-disabled=true]) {
+        background: var(--ctp-latte-pink);
+    }
+
+    .s19dmjr1.is-focused,
+    .s19dmjr1.is-focused input,
+    .s2y71yx label,
+    .s2y71yx.is-expanded label {
+        background: var(--ctp-latte-surface0);
+        color: var(--ctp-latte-text);
+    }
+
+    .eeiq5c0 {
+        color: var(--ctp-latte-text);
+    }
+
+    .t1r0fp00,
+    .t1elfe8k {
+        color: var(--ctp-latte-subtext0);
+    }
+
+    .MobilePage {
+        background: var(--ctp-latte-base);
+    }
+
+    .MobilePage-feature {
+        border-color: var(--ctp-latte-overlay2);
+    }
+
+    .MobilePage-anyDevice {
+        border-top-color: var(--ctp-latte-overlay2)
+    }
+
+    .AssemblyTextButton--secondary {
+        color: var(--ctp-latte-text);
+    }
+
+    .AssemblyPrimaryButton--upgrade {
+        background: var(--ctp-latte-yellow);
+    }
+
+    .page,
+    .PrismicSimpleRichText--white,
+    .PrismicTextCallout--whiteBackground,
+    .PrismicVideoEmbedWithText--whiteBackground,
+    .p1mcvm6s,
+    .PrismicImageTextTile--whiteBackground,
+    .PrismicTextCallout--twilightBlue200Background,
+    #SearchResultsPageHeader-mainExperiment {
+        background-color: var(--ctp-latte-base);
+    }
+
+    .tfomyx6,
+    .i1rs7b62,
+    .d5ww82k {
+        color: var(--ctp-latte-text);
+    }
+
+    .cssrxmc {
+        background-color: var(--ctp-latte-yellow);
+    }
+
+    .PrismicImageTextTile-tileWrapper {
+        background-color: var(--ctp-latte-mantle);
+    }
+
+    .AssemblyPrimaryButton--upgrade:hover:not([disabled],
+    [aria-disabled=true]) {
+        background: var(--ctp-latte-rosewater);
+    }
+
+    .s1qq0zr7 {
+        background-color: var(--ctp-latte-mantle);
+    }
+
+    .sv0yvnj a,
+    .sv0yvnj a:visited:not(:last-child) {
+        color: var(--ctp-latte-text);
+    }
+
+    .sg4pwu6:hover,
+    .hivq638,
+    .s1ahro8n:hover {
+        background-color: var(--ctp-latte-crust);
+    }
+
+    .e7lqtuc .react-autosuggest__suggestions-container.react-autosuggest__suggestions-container--open {
+        background-color: var(--ctp-latte-mantle);
+    }
+
+    .e7lqtuc .react-autosuggest__section-title,
+    .SearchResultsPageHeader-queryFeedback,
+    .SearchResultsPage-contentType .SearchResultsPage-emptyStateHeadline,
+    .SearchResultsPage-contentType .SearchResultsPage-emptyStateDescription,
+    .SearchResultsPage-contentType .SearchResultsPage-emptyStateSuggestionsList {
+        color: var(--ctp-latte-text);
+    }
+
+    .markdown-body {
+        color: var(--ctp-latte-subtext1);
+    }
+
+    .e7lqtuc li.react-autosuggest__suggestion.react-autosuggest__suggestion--highlighted,
+    .e7lqtuc li.react-autosuggest__suggestion:hover {
+        background-color: var(--ctp-latte-crust);
+        border-color: var(--ctp-latte-lavender);
+    }
+
+    .UserPreviewCard-username,
+    .ClassPreviewCard-title {
+        color: var(--ctp-latte-text);
+    }
+
+    .UserPreviewCard-classesDescription,
+    .UserPreviewCard-createdSetsDescription,
+    .QuestionCard-subject,
+    .ClassPreviewCard-location,
+    .ClassPreviewCard-membersDescription,
+    .ClassPreviewCard-studySetsDescription {
+        color: var(--ctp-latte-subtext1)
+    }
+
+    .QuestionCard-bottomGradient {
+        background-image: none;
+    }
+
+    .AssemblyTextButton--primary {
+        color: var(--ctp-latte-rosewater);
+    }
+
+    .TosLegend--normal {
+        color: var(--ctp-latte-subtext1)
+    }
+
+    .AssemblyLink--secondary:any-link {
+        color: var(--ctp-latte-rosewater);
+    }
+
+    .lghzn8f,
+    .a1cdxe01.h9lvpq {
+        color: var(--ctp-latte-text);
+    }
+
+    .s1mff1xn,
+    .AssemblyCheckbox-label {
+        color: var(--ctp-latte-text);
+    }
+
+    .ccnmm10 {
+        background-color: var(--ctp-latte-mantle);
+    }
+
+    .neeykg0 {
+        filter: brightness(0) saturate(100%) invert(96%) sepia(3%) saturate(606%) hue-rotate(185deg) brightness(93%) contrast(95%);
+    }
+
+    .c1g4obhz {
+        background-color: var(--ctp-latte-crust);
+        color: var(--ctp-latte-text);
+    }
+
+    .SetPageTerm-wordText,
+    .SetPageTerm-definitionText {
+        color: var(--ctp-latte-text);
+    }
+
+    .SetPageTerms-embeddedDesktopAdWrapper {
+        background: var(--ctp-latte-mantle)
+    }
+
+    .c1qw5oc {
+        background: var(--ctp-latte-crust);
+        border-bottom-color: var(--ctp-latte-surface0)
+    }
+
+    .c19lfjrd,
+    .l1fkuqeb {
+        background-color: var(--ctp-latte-base);
+    }
+
+    .bxyvgmh {
+        background-color: var(--ctp-latte-mantle);
+    }
+
+    .ata5p6z[aria-disabled=true],
+    .ata5p6z[aria-disabled=true] div,
+    .ata5p6z[aria-disabled=true] textarea {
+        background-color: var(--ctp-latte-mantle) !important;
+    }
+
+    .ata5p6z {
+        border-color: var(--ctp-latte-overlay2);
+        background-color: var(--ctp-latte-mantle);
+    }
+
+    .AssemblyIconButton--primary:disabled,
+    .AssemblyIconButton--primary[aria-disabled=true] {
+        background: var(--ctp-latte-surface1);
+        color: var(--ctp-latte-text);
+    }
+
+    .ugcsb7m {
+        background-color: var(--ctp-latte-blue);
+        color: var(--ctp-latte-crust);
+    }
+
+    .AssemblySecondaryButton:disabled,
+    .AssemblySecondaryButton[aria-disabled=true] {
+        background-color: var(--ctp-latte-base);
+        border-color: var(--ctp-latte-overlay2)
+    }
+
+    .m9mf1hr div,
+    .m9mf1hr textarea {
+        background-color: var(--ctp-latte-mantle) !important;
+    }
+
+    .lu5rlws {
+        color: var(--ctp-latte-subtext1)
+    }
+
+    .b1yjduyh {
+        background-color: var(--ctp-latte-mantle);
+    }
+
+    .d6tac4m {
+        background-color: var(--ctp-latte-surface0);
+    }
+
+    .RecentFeed-empty {
+        background-color: var(--ctp-latte-mantle);
+    }
+
+    .i1ykvw4f {
+        background: var(--ctp-latte-mantle);
+    }
+
+    .i1ykvw4f:hover {
+        background: var(--ctp-latte-crust);
+    }
+
+    .RecentFeed-empty--cta {
+        color: var(--ctp-latte-text);
+    }
+
+    .UIButton--whiteBorder:active,
+    html.cursor .UIButton--whiteBorder:hover,
+    html.cursor .UIButton--whiteBorder:hover:visited {
+        color: var(--ctp-latte-yellow) !important;
+    }
+
+    .c124zyvn {
+        background: var(--ctp-latte-base);
+    }
+
+    .AssemblyLink--primary:hover {
+        color: var(--ctp-latte-maroon);
+    }
+
+    .cczh2hb,
+    .h1jftztg,
+    .t2m5erc {
+        color: var(--ctp-latte-text);
+    }
+
+    .t1nv0ihp,
+    .sku1zau,
+    .s54kfc3 {
+        color: var(--ctp-latte-subtext1);
+    }
+
+    .ImageUploadProminentContextToggle .ImageUploadProminentContextToggle-IconExplanation {
+        color: var(--ctp-latte-text);
+    }
+
+    .SiteHeaderLogo-link {
+        color: var(--ctp-latte-blue) !important;
+    }
+
+    .c1sgnxr5 {
+        color: var(--ctp-latte-green);
+    }
+
+    .suyglfi {
+        color: var(--ctp-latte-text);
+    }
+
+    .s2y71yx li.react-autosuggest__suggestion.react-autosuggest__suggestion--highlighted,
+    .s2y71yx li.react-autosuggest__suggestion:hover {
+        background: var(--ctp-latte-mantle);
+    }
+
+    .s2y71yx input {
+        color: var(--ctp-latte-text);
+    }
+
+    .q1kwd3of {
+        color: var(--ctp-latte-overlay2);
+    }
+
+    .c1741jrq:not(:first-child) {
+        border-top-color: var(--ctp-latte-overlay2);
+    }
+
+    .SetsView-studySetResults {
+        color: var(--ctp-latte-text);
+    }
+    
+    .AssemblyInput-placeholder {
+        color: var(--ctp-latte-text) !important;
+    }
+}

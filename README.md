@@ -36,7 +36,14 @@
 
 ## Usage
 
-WIP
+1. Install Stylus extension for [Firefox](https://addons.mozilla.org/en-US/firefox/addon/styl-us/), [Chrome](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne) or [Opera](https://addons.opera.com/en-gb/extensions/details/stylus/)
+2. Make sure Quizlet is in Light Mode
+2. Then install with Stylus (click on the link):
+  - [🌻 Catppuccin Latte](https://github.com/spaghettiosareyummy/quizlet/raw/main/src/QuizletCtpLatte.user.css)
+  - [🪴 Catppuccin Frappe](https://github.com/spaghettiosareyummy/quizlet/raw/main/src/QuizletCtpFrappe.user.css)
+  - [🌺 Catppuccin Macchiato](https://github.com/spaghettiosareyummy/quizlet/raw/main/src/QuizletCtpMacchiato.user.css)
+  - [🌿 Catppuccin Mocha](https://github.com/spaghettiosareyummy/quizlet/raw/main/src/QuizletCtpMocha.user.css)
+
 
 ## 💝 Thanks to
 
