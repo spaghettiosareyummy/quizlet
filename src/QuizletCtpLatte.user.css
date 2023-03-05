@@ -114,6 +114,7 @@
 
     .AssemblyPill {
         background-color: var(--ctp-latte-crust);
+        color: var(--ctp-latte-text);
     }
 
     .t7pmw6o {
@@ -155,7 +156,7 @@
     }
 
     .CalendarTile--isCurrentWeek::after {
-        background-color: var(--ctp-latte-text) !important;
+        background-color: var(--ctp-latte-mantle) !important;
     }
 
     .CalendarTile--isCurrentWeek {
@@ -195,7 +196,7 @@
     }
 
     .CalendarTile--hasEvent {
-        color: var(--ctp-latte-text) !important;
+        color: var(--ctp-latte-mantle) !important;
     }
 
     .c1qopd51 {
@@ -1515,6 +1516,7 @@
 
     .UILinkButton {
         border-bottom: .3125rem solid var(--ctp-latte-blue);
+        color: var(--ctp-latte-text);
     }
 
     .p10i2lyl {
@@ -1792,7 +1794,7 @@
     }
 
     .neeykg0 {
-        filter: brightness(0) saturate(100%) invert(96%) sepia(3%) saturate(606%) hue-rotate(185deg) brightness(93%) contrast(95%);
+        filter: brightness(0) saturate(100%) invert(14%) sepia(10%) saturate(1367%) hue-rotate(192deg) brightness(95%) contrast(95%);
     }
 
     .c1g4obhz {
@@ -1909,19 +1911,19 @@
     .s54kfc3 {
         color: var(--ctp-latte-subtext1);
     }
-
+    
     .ImageUploadProminentContextToggle .ImageUploadProminentContextToggle-IconExplanation {
         color: var(--ctp-latte-text);
     }
-
+    
     .SiteHeaderLogo-link {
         color: var(--ctp-latte-blue) !important;
     }
-
+    
     .c1sgnxr5 {
         color: var(--ctp-latte-green);
     }
-
+    
     .suyglfi {
         color: var(--ctp-latte-text);
     }
@@ -1930,24 +1932,97 @@
     .s2y71yx li.react-autosuggest__suggestion:hover {
         background: var(--ctp-latte-mantle);
     }
-
+    
     .s2y71yx input {
         color: var(--ctp-latte-text);
     }
-
+    
     .q1kwd3of {
         color: var(--ctp-latte-overlay2);
     }
-
+    
     .c1741jrq:not(:first-child) {
         border-top-color: var(--ctp-latte-overlay2);
     }
-
+    
     .SetsView-studySetResults {
         color: var(--ctp-latte-text);
     }
     
-    .AssemblyInput-placeholder {
-        color: var(--ctp-latte-text) !important;
+    .UILink .SetPreview-cardHeaderTitle,
+    .UILink .SetPreview-cardHeaderTitle:visited,
+    html.touch .UILink .SetPreview-cardHeaderTitle:focus:hover:not(:active) {
+        color: var(--ctp-latte-text);
+    }
+
+    .SetPreview-cardBylineClass {
+        color: var(--ctp-latte-subtext0)
+    }
+
+    .UILink .SetPreview-cardHeaderTitle:active,
+    html.cursor .UILink .SetPreview-cardHeaderTitle:hover,
+    html.cursor .UILink .SetPreview-cardHeaderTitle:hover:visited {
+        color: var(--ctp-latte-yellow);
+    }
+    
+    .e29yge6 .react-autosuggest__container .react-autosuggest__suggestion.react-autosuggest__suggestion--highlighted, .e29yge6 .react-autosuggest__container .react-autosuggest__suggestion:hover {
+        background-color: var(--ctp-latte-crust);
+    }
+    
+    .e29yge6 .react-autosuggest__container .react-autosuggest__suggestion {
+        border-bottom-color: var(--ctp-latte-mantle);
+    }
+    
+    .EdgyDataCourseSelector-addYourOwn {
+        color: var(--ctp-latte-blue);
+    }
+    
+    .i5h71e0 {
+        background-color: var(--ctp-latte-surface0);
+    }
+    
+    .ikdjsw2 {
+        color: var(--ctp-latte-text);
+    }
+    
+    .i1m3kkj2 {
+        color: var(--ctp-latte-text);
+    }
+    
+    .i1190urg {
+        color: var(--ctp-latte-subtext0);
+    }
+    
+    .le206v0 {
+        border-color: var(--ctp-latte-overlay2);
+    }
+    
+    .sby7w0g {
+        background: var(--ctp-latte-overlay2);
+    }
+    
+    .c3s5vdc:hover {
+        background-color: var(--ctp-latte-blue);
+    }
+    
+    .g4cyoxx {
+        color: var(--ctp-latte-text);
+    }
+    
+    .s1lyn4nc {
+        background: var(--ctp-latte-blue);
+    }
+    
+    .UIModal.is-white .UIModal-box {
+        background: var(--ctp-latte-mantle)
+    }
+    
+    .UIModalBadge {
+        background-color: var(--ctp-latte-blue);
+        color: var(--ctp-latte-crust);
+    }
+    
+    .CombinePage-sourceSelectWrap .UIFieldset-legend {
+        color: var(--ctp-latte-text);
     }
 }
