@@ -60,7 +60,7 @@
     }
 
     .CourseOverviewPreviewCard-recommendationLink:hover {
-        background-color: var(--ctp-frappe-crust) !important;
+        background-color: var(--ctp-frappe-crust);
     }
 
     .CourseOverviewPreviewCard-subtitle {
@@ -121,18 +121,19 @@
         color: var(--ctp-frappe-text);
     }
 
+    .UIBaseCard-footer .UserLink-username,
     .UserLink-username {
-        color: var(--ctp-frappe-text) !important;
+        color: var(--ctp-frappe-text);
     }
     .UserLink-title {
-        color: var(--ctp-frappe-text) !important;
+        color: var(--ctp-frappe-text);
     }
     .UILinkBox {
         background-color: var(--ctp-frappe-mantle);
     }
 
     .UIBaseCardHeader-info {
-        color: var(--ctp-frappe-text) !important;
+        color: var(--ctp-frappe-text);
     }
 
     .UIBaseCardHeader-thumbnail {
@@ -144,23 +145,23 @@
     }
 
     .aup4qff {
-        color: var(--ctp-frappe-mantle) !important;
+        color: var(--ctp-frappe-mantle);
     }
 
     .illkdv2c {
-        color: var(--ctp-frappe-maroon) !important;
+        color: var(--ctp-frappe-maroon);
     }
 
     .react-calendar__month-view__weekdays__weekday {
-        color: var(--ctp-frappe-subtext0) !important;
+        color: var(--ctp-frappe-subtext0);
     }
 
     .CalendarTile--isCurrentWeek::after {
-        background-color: var(--ctp-frappe-mantle) !important;
+        background-color: var(--ctp-frappe-mantle);
     }
 
     .CalendarTile--isCurrentWeek {
-        color: var(--ctp-frappe-text) !important;
+        color: var(--ctp-frappe-text);
     }
 
     .AssemblyIcon--medium {
@@ -192,15 +193,15 @@
     }
 
     .s1da1u6y {
-        background-color: var(--ctp-frappe-crust) !important;
+        background-color: var(--ctp-frappe-crust);
     }
 
     .CalendarTile--hasEvent {
-        color: var(--ctp-frappe-mantle) !important;
+        color: var(--ctp-frappe-mantle);
     }
 
     .c1qopd51 {
-        color: var(--ctp-frappe-maroon) !important;
+        color: var(--ctp-frappe-maroon);
     }
 
     .AssemblyIconButton--primary {
@@ -228,7 +229,7 @@
     }
 
     [d17q91q7][aria-expanded="true"] {
-        background-color: var(--ctp-frappe-text) !important;
+        background-color: var(--ctp-frappe-text);
     }
 
     .UILinkBox-link .UILink:active,
@@ -300,12 +301,12 @@
     }
 
     .s1ovpdog {
-        background-color: var(--ctp-frappe-mantle) !important;
+        background-color: var(--ctp-frappe-mantle);
         border-top: .0625rem solid var(--ctp-frappe-overlay0)
     }
 
-    .AssemblyMenuItem--title {
-        color: var(--ctp-frappe-subtext0) !important;
+    .c1ap9d88 .AssemblyMenuItem--title {
+        color: var(--ctp-frappe-subtext0);
     }
 
     .c1ap9d88:hover {
@@ -321,7 +322,7 @@
     }
 
     .UIBaseCard-labelTag {
-        background-color: var(--ctp-frappe-surface0) !important;
+        background-color: var(--ctp-frappe-surface0);
         color: var(--ctp-frappe-text);
     }
 
@@ -406,20 +407,22 @@
         background-color: var(--ctp-frappe-base);
     }
 
-    .SetPage-setIntroWrapper {
-        background-color: var(--ctp-frappe-base) !important;
+    .SetPage .SetPage-setDetailsInfoWrapper,
+    .SetPage .SetPage-setIntroWrapper.SetPage-setIntroWrapper {
+        background-color: var(--ctp-frappe-base);
     }
 
     .SetPage-setDetailsInfoWrapper {
-        background-color: var(--ctp-frappe-base) !important;
+        background-color: var(--ctp-frappe-base);
     }
 
     .SetPage-setDetailsTermsWrapper {
-        background-color: var(--ctp-frappe-base) !important;
+        background-color: var(--ctp-frappe-base);
     }
 
-    .SetPage-setLinksWrapper {
-        background-color: var(--ctp-frappe-base) !important;
+    .SetPage .SetPage-setDetailsTermsWrapper,
+    .SetPage .SetPage-setLinksWrapper.SetPage-setLinksWrapper {
+        background-color: var(--ctp-frappe-base);
     }
 
     .SiteFooter {
@@ -461,7 +464,8 @@
     }
 
     .UISwitch-label {
-        background-color: var(--ctp-frappe-mantle) !important;
+        background-color: var(--ctp-frappe-mantle);
+        color: var(--ctp-macchiato-text)
     }
 
     .SetPageTerm {
@@ -473,15 +477,15 @@
     }
 
     .UIDropdown--inverted {
-        background: var(--ctp-frappe-base) !important;
+        background: var(--ctp-frappe-base);
     }
 
     .UIDropdown-select {
-        color: var(--ctp-frappe-text) !important;
+        color: var(--ctp-frappe-text);
     }
 
     .soyu1j6 {
-        color: var(--ctp-frappe-maroon) !important;
+        color: var(--ctp-frappe-maroon);
     }
 
     .s1e29328.cbb9lkx {
@@ -491,16 +495,15 @@
     }
 
     .kahyre1 {
-        color: var(--ctp-frappe-green) !important;
+        color: var(--ctp-frappe-green);
     }
 
     .kzo3tk {
-        color: var(--ctp-latte-green) !important;
-        /*yes i know this is latte i dont have a replacement*/
+        color: var(--ctp-frappe-blue);
     }
 
     .NotificationBadge-container {
-        background-color: var(--ctp-frappe-blue) !important;
+        background-color: var(--ctp-frappe-blue);
     }
 
     .hgmlhdt {
@@ -576,12 +579,12 @@
     .UISwitch-input:checked:not(:disabled) ~ .UISwitch-label {
         color: var(--ctp-frappe-mantle);
         border-color: var(--ctp-frappe-yellow);
-        background-color: var(--ctp-frappe-yellow) !important;
+        background-color: var(--ctp-frappe-yellow);
     }
 
     .AssemblyIconButton--highlight {
         background: none;
-        color: var(--ctp-frappe-yellow) !important;
+        color: var(--ctp-frappe-yellow);
     }
 
     .UIToggle-optionInput:hover:not(:disabled) ~ .UIToggle-optionLabel {
@@ -1083,9 +1086,9 @@
     }
 
     .UIButton--whiteBorder {
-        background: var(--ctp-frappe-crust) !important;
+        background: var(--ctp-frappe-crust);
         border: .125rem solid var(--ctp-frappe-base);
-        color: var(--ctp-frappe-text) !important;
+        color: var(--ctp-frappe-text);
     }
 
     .MatchModeControls-currentTime {
@@ -1209,7 +1212,8 @@
 
     .EdgyDataCoursePillbox .UIPill {
         background: var(--ctp-frappe-crust);
-        border: 1px solid var(--ctp-frappe-overlay2)
+        border: 1px solid var(--ctp-frappe-overlay2);
+        color: var(--ctp-frappe-text);
     }
 
     .UIAutosuggest .react-autosuggest__suggestions-container {
@@ -1262,8 +1266,9 @@
     }
 
     .b1opuclq {
-        background-color: var(--ctp-frappe-crust);
+        background-color: var(--ctp-frappe-mantle);
         box-shadow: 0 .25rem 1rem 0 var(--ctp-frappe-crust);
+        ;
     }
 
     .button.apple .label,
@@ -1284,10 +1289,8 @@
     .UIInput-input:-webkit-autofill,
     .UIInput-input:-webkit-autofill:focus,
     .UIInput-input:-webkit-autofill:hover {
-        box-shadow: 0 0 0 var(--ctp-frappe-crust) inset!important;
-        -webkit-box-shadow: 0 0 0 var(--ctp-frappe-crust) inset!important;
+        box-shadow: none !important;
     }
-
     .UIInput-input:-internal-autofill-previewed,
     .UIInput-input:-internal-autofill-selected {
         -webkit-text-fill-color: var(--ctp-frappe-text);
@@ -1333,7 +1336,7 @@
     }
 
     .AssemblyLink--primary:any-link {
-        color: var(--ctp-frappe-rosewater) !important;
+        color: var(--ctp-frappe-rosewater);
     }
 
     .AssemblyLink {
@@ -1828,7 +1831,7 @@
     .ata5p6z[aria-disabled=true],
     .ata5p6z[aria-disabled=true] div,
     .ata5p6z[aria-disabled=true] textarea {
-        background-color: var(--ctp-frappe-mantle) !important;
+        background-color: var(--ctp-frappe-mantle);
     }
 
     .ata5p6z {
@@ -1855,7 +1858,7 @@
 
     .m9mf1hr div,
     .m9mf1hr textarea {
-        background-color: var(--ctp-frappe-mantle) !important;
+        background-color: var(--ctp-frappe-mantle);
     }
 
     .lu5rlws {
@@ -1889,7 +1892,7 @@
     .UIButton--whiteBorder:active,
     html.cursor .UIButton--whiteBorder:hover,
     html.cursor .UIButton--whiteBorder:hover:visited {
-        color: var(--ctp-frappe-yellow) !important;
+        color: var(--ctp-frappe-yellow);
     }
 
     .c124zyvn {
@@ -1911,19 +1914,19 @@
     .s54kfc3 {
         color: var(--ctp-frappe-subtext1);
     }
-    
+
     .ImageUploadProminentContextToggle .ImageUploadProminentContextToggle-IconExplanation {
         color: var(--ctp-frappe-text);
     }
-    
+
     .SiteHeaderLogo-link {
-        color: var(--ctp-frappe-blue) !important;
+        color: var(--ctp-frappe-blue);
     }
-    
+
     .c1sgnxr5 {
         color: var(--ctp-frappe-green);
     }
-    
+
     .suyglfi {
         color: var(--ctp-frappe-text);
     }
@@ -1932,23 +1935,23 @@
     .s2y71yx li.react-autosuggest__suggestion:hover {
         background: var(--ctp-frappe-mantle);
     }
-    
+
     .s2y71yx input {
         color: var(--ctp-frappe-text);
     }
-    
+
     .q1kwd3of {
         color: var(--ctp-frappe-overlay2);
     }
-    
+
     .c1741jrq:not(:first-child) {
         border-top-color: var(--ctp-frappe-overlay2);
     }
-    
+
     .SetsView-studySetResults {
         color: var(--ctp-frappe-text);
     }
-    
+
     .UILink .SetPreview-cardHeaderTitle,
     .UILink .SetPreview-cardHeaderTitle:visited,
     html.touch .UILink .SetPreview-cardHeaderTitle:focus:hover:not(:active) {
@@ -1964,65 +1967,148 @@
     html.cursor .UILink .SetPreview-cardHeaderTitle:hover:visited {
         color: var(--ctp-frappe-yellow);
     }
-    
-    .e29yge6 .react-autosuggest__container .react-autosuggest__suggestion.react-autosuggest__suggestion--highlighted, .e29yge6 .react-autosuggest__container .react-autosuggest__suggestion:hover {
+
+    .e29yge6 .react-autosuggest__container .react-autosuggest__suggestion.react-autosuggest__suggestion--highlighted,
+    .e29yge6 .react-autosuggest__container .react-autosuggest__suggestion:hover {
         background-color: var(--ctp-frappe-crust);
     }
-    
+
     .e29yge6 .react-autosuggest__container .react-autosuggest__suggestion {
         border-bottom-color: var(--ctp-frappe-mantle);
     }
-    
+
     .EdgyDataCourseSelector-addYourOwn {
         color: var(--ctp-frappe-blue);
     }
-    
+
     .i5h71e0 {
         background-color: var(--ctp-frappe-surface0);
     }
-    
+
     .ikdjsw2 {
         color: var(--ctp-frappe-text);
     }
-    
+
     .i1m3kkj2 {
         color: var(--ctp-frappe-text);
     }
-    
+
     .i1190urg {
         color: var(--ctp-frappe-subtext0);
     }
-    
+
     .le206v0 {
         border-color: var(--ctp-frappe-overlay2);
     }
-    
+
     .sby7w0g {
         background: var(--ctp-frappe-overlay2);
     }
-    
+
     .c3s5vdc:hover {
         background-color: var(--ctp-frappe-blue);
     }
-    
+
     .g4cyoxx {
         color: var(--ctp-frappe-text);
     }
-    
+
     .s1lyn4nc {
         background: var(--ctp-frappe-blue);
     }
-    
+
     .UIModal.is-white .UIModal-box {
-        background: var(--ctp-frappe-mantle)
+        background: var(--ctp-frappe-mantle);
     }
-    
+
     .UIModalBadge {
         background-color: var(--ctp-frappe-blue);
         color: var(--ctp-frappe-crust);
     }
-    
+
     .CombinePage-sourceSelectWrap .UIFieldset-legend {
         color: var(--ctp-frappe-text);
+    }
+
+    .k1reqlz9.ijrfqxy svg {
+        fill: var(--ctp-frappe-green);
+    }
+
+    .dhmqhsx.ijrfqxy svg {
+        fill: var(--ctp-frappe-red);
+    }
+
+    .c6p6uaq .react-calendar__navigation__label {
+        color: var(--ctp-frappe-text);
+    }
+
+    .c6p6uaq .react-calendar__navigation__arrow {
+        color: var(--ctp-frappe-text);
+    }
+
+    .c6p6uaq .react-calendar__navigation__arrow:disabled {
+        color: var(--ctp-frappe-overlay1);
+    }
+
+    .f1sxiitf {
+        background: linear-gradient(var(--ctp-frappe-mantle), var(--ctp-frappe-base));
+    }
+
+    .c1ext0pg {
+        background-color: var(--ctp-frappe-surface1);
+        color: var(--ctp-frappe-text);
+    }
+
+    .sl7nfp9 {
+        background-color: var(--ctp-frappe-mantle);
+    }
+
+    .sdw19mu .SetPreviewCardV1 {
+        border-bottom-color: var(--ctp-frappe-overlay2);
+    }
+
+    .fiejqa {
+        background: none;
+    }
+
+    .t1ied0h6 {
+        color: var(--ctp-frappe-subtext1);
+    }
+
+    .SetListMediumCard-isActive:before {
+        background-color: var(--ctp-frappe-lavender);
+    }
+
+    .c51obz3 {
+        background-color: var(--ctp-frappe-base);
+    }
+
+    .s80h93u {
+        color: var(--ctp-frappe-text);
+        border-color: var(--ctp-frappe-overlay2);
+    }
+
+    .s80h93u:active:not([disabled],
+    [aria-disabled=true]),
+    .s80h93u:hover:not([disabled],
+    [aria-disabled=true]) {
+        background: var(--ctp-frappe-crust);
+    }
+
+    .r78nxpu > div:hover {
+        background-color: var(--ctp-frappe-mantle);
+    }
+
+    .stbnqj0 {
+        color: var(--ctp-frappe-text);
+    }
+
+    .c1n6gny6,
+    .to5kbh1 {
+        color: var(--ctp-frappe-text);
+    }
+
+    .tb3hrve {
+        color: var(--ctp-frappe-subtext0);
     }
 }
