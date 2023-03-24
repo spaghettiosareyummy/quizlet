@@ -627,7 +627,15 @@
     .kzo3tk.cbb9lkx {
         background: var(--ctp-latte-green);
         border-color: var(--ctp-latte-green);
-        color: var(--ctp-latte-text);
+        color: var(--ctp-latte-blue);
+    }
+    
+    .kahyre1.l40n85g {
+        color: var(--ctp-latte-green);
+    }
+    
+    .soyu1j6.l40n85g {
+        color: var(--ctp-latte-red)
     }
 
     .axrvw3e.s1e29328.cbb9lkx {
@@ -649,7 +657,7 @@
     }
 
     .AssemblyToggleSwitch-input:checked + .AssemblyToggleSwitch-fauxInput:after {
-        background-color: var(--ctp-latte-pink);
+        background-color: var(--ctp-latte-blue);
     }
 
     .AssemblyToggleSwitch-fauxInput {
