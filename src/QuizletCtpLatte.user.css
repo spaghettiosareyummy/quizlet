@@ -1,5 +1,5 @@
 /* ==UserStyle==
-@name           Quizlet Catppuccin Latte
+@name           Quizlet Catppuccin  Latte
 @namespace      spaghet
 @version        1.0.0
 @author         Brandon Bowdoin
@@ -502,7 +502,7 @@
         color: var(--ctp-latte-blue);
     }
 
-    .NotificationBadge-container {
+    .SiteActivity-button .NotificationBadge-container {
         background-color: var(--ctp-latte-blue);
     }
 
@@ -629,11 +629,11 @@
         border-color: var(--ctp-latte-green);
         color: var(--ctp-latte-blue);
     }
-    
+
     .kahyre1.l40n85g {
         color: var(--ctp-latte-green);
     }
-    
+
     .soyu1j6.l40n85g {
         color: var(--ctp-latte-red)
     }
@@ -657,7 +657,7 @@
     }
 
     .AssemblyToggleSwitch-input:checked + .AssemblyToggleSwitch-fauxInput:after {
-        background-color: var(--ctp-latte-blue);
+        background-color: var(--ctp-latte-pink);
     }
 
     .AssemblyToggleSwitch-fauxInput {
@@ -2059,7 +2059,7 @@
     }
 
     .f1sxiitf {
-        background: linear-gradient(var(--ctp-latte-mantle), var(--ctp-latte-base));
+        background: none;
     }
 
     .c1ext0pg {
@@ -2118,5 +2118,186 @@
 
     .tb3hrve {
         color: var(--ctp-latte-subtext0);
+    }
+
+    .HurricaneBanner--default {
+        background: var(--ctp-latte-crust);
+        border-bottom-color: var(--ctp-latte-surface0);
+    }
+
+    .HurricaneBanner--default .HurricaneBanner-text {
+        color: var(--ctp-latte-text);
+    }
+
+    .StudyModesNavSectionTitle {
+        color: var(--ctp-latte-text);
+    }
+
+    .cgkxufs {
+        background: var(--ctp-latte-crust);
+        border-bottom-color: var(--ctp-latte-overlay0);
+    }
+
+    .TeacherChoosePageView-gameTypeOption {
+        background-color: var(--ctp-latte-mantle);
+    }
+
+    .TeacherChoosePageView-gameTypes--text {
+        color: var(--ctp-latte-text);
+    }
+
+    .TeacherChoosePageView-gameTypes--description {
+        color: var(--ctp-latte-subtext0);
+    }
+
+    .TeacherChoosePageView-gameTypes--cta,
+    .CardContent-cta {
+        color: var(--ctp-latte-blue);
+    }
+
+    .TeacherChoosePageView-gameTypeOption:hover,
+    .PlayModeCard:hover {
+        border-bottom-color: var(--ctp-latte-yellow);
+    }
+
+    .PlayModeCard:active,
+    .PlayModeCard:focus:not(:active):not(:hover),
+    html.cursor .PlayModeCard:hover,
+    html.cursor .PlayModeCard:hover:visited {
+        border-color: var(--ctp-latte-yellow);
+    }
+
+    .PlayModeCard {
+        background-color: var(--ctp-latte-mantle);
+    }
+
+    .CardContent-option {
+        background: var(--ctp-latte-crust);
+        color: var(--ctp-latte-text);
+    }
+
+    .CardContent-text,
+    .CardContent-title {
+        color: var(--ctp-latte-text);
+    }
+
+    .TeacherLobbyView-join {
+        background-color: var(--ctp-latte-mantle);
+    }
+
+    .TeacherLobbyView .UIFloatedCard,
+    .TeacherStartGameView-side,
+    .TeacherEndView-side {
+        background: var(--ctp-latte-crust);
+    }
+
+    .theme-night .TeacherLobbyView .UIFloatedCard {
+        border-color: var(--ctp-latte-overlay2);
+    }
+
+    .TeacherLobbyView-join--instructionLink .UIButton {
+        color: var(--ctp-latte-blue);
+    }
+
+    .TeacherLobbyView-player:hover {
+        color: var(--ctp-latte-red);
+    }
+
+    .td5er02 .UIFloatedCard {
+        background-color: var(--ctp-latte-mantle);
+    }
+
+    .TermStat--perfectTerms .TermStat-header {
+        background-color: var(--ctp-latte-green);
+    }
+
+    .TermStat-header {
+        color: var(--ctp-latte-mantle);
+    }
+
+    .TermStatGroup-navProgress {
+        color: var(--ctp-latte-subtext0\1)
+    }
+
+    .TeacherEndView-side--bottomButton .UIButton.UIButton--whiteBorderRounded {
+        color: var(--ctp-latte-text);
+    }
+
+    .SegmentedControl.SegmentedControl--quizletBlue .SegmentedControl-navItem.is-active,
+    .segmented-control.SegmentedControl--quizletBlue .SegmentedControl-navItem.is-active {
+        background: var(--ctp-latte-lavender);
+        color: var(--ctp-latte-crust);
+    }
+
+    .StudyWhileWaitingView {
+        background-color: var(--ctp-latte-base);
+    }
+
+    .firefox .CardsList.CardsList--showSingle .CardsItem .CardsItemSide .CardsItemInner,
+    .ie11 .CardsList.CardsList--showSingle .CardsItem .CardsItemSide .CardsItemInner,
+    .webkit .CardsList.CardsList--showSingle .CardsItem .CardsItemSide .CardsItemInner {
+        background-color: var(--ctp-latte-mantle);
+    }
+
+    .StudentTeamView-teamInner {
+        background-color: var(--ctp-latte-mantle);
+    }
+
+    .StudentAnswerOption .UIButton {
+        background-color: var(--ctp-latte-mantle) !important;
+    }
+
+    .StudentAnswerOption .UIButton:active,
+    html.cursor .StudentAnswerOption .UIButton:hover,
+    html.cursor .StudentAnswerOption .UIButton:hover:visited {
+        border-color: var(--ctp-latte-yellow);
+    }
+
+    .StudentPlayingHeader {
+        background: var(--ctp-latte-crust);
+    }
+
+    .StudentLeaderboard-headstart {
+        background: var(--ctp-latte-blue);
+    }
+
+    .StudentLeaderboard {
+        background: var(--ctp-latte-lavender);
+    }
+
+    .StudentLeaderboard-team {
+        background: var(--ctp-latte-blue);
+    }
+
+    .StudentGameboard-feedback.is-incorrectAnswer {
+        background: var(--ctp-latte-red);
+    }
+
+    .StudentAnswerOption.is-showingIncorrectFeedback.StudentAnswerOption .UIButton {
+        background: var(--ctp-latte-red) !important;
+    }
+
+    .StudentAnswerOption.is-showingCorrectFeedback.StudentAnswerOption .UIButton {
+        background: var(--ctp-latte-green) !important;
+    }
+
+    .StudentIncorrectAnswerFeedback-section--correct .StudentIncorrectAnswerFeedback-heading {
+        color: var(--ctp-latte-green);
+    }
+
+    .TermStat--learnedTerms .TermStat-header {
+        background-color: var(--ctp-latte-red);
+    }
+
+    .TeacherChoosePageView-gameTypeOption:active,
+    .TeacherChoosePageView-gameTypeOption:focus:not(:active):not(:hover),
+    html.cursor .TeacherChoosePageView-gameTypeOption:hover,
+    html.cursor .TeacherChoosePageView-gameTypeOption:hover:visited {
+        border-color: var(--ctp-latte-yellow);
+    }
+
+    .tllqvk3,
+    .c1tmoumb {
+        background-color: var(--ctp-latte-mantle)
     }
 }

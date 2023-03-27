@@ -502,7 +502,7 @@
         color: var(--ctp-frappe-blue);
     }
 
-    .NotificationBadge-container {
+    .SiteActivity-button .NotificationBadge-container {
         background-color: var(--ctp-frappe-blue);
     }
 
@@ -629,11 +629,11 @@
         border-color: var(--ctp-frappe-green);
         color: var(--ctp-frappe-blue);
     }
-    
+
     .kahyre1.l40n85g {
         color: var(--ctp-frappe-green);
     }
-    
+
     .soyu1j6.l40n85g {
         color: var(--ctp-frappe-red)
     }
@@ -2059,7 +2059,7 @@
     }
 
     .f1sxiitf {
-        background: linear-gradient(var(--ctp-frappe-mantle), var(--ctp-frappe-base));
+        background: none;
     }
 
     .c1ext0pg {
@@ -2118,5 +2118,186 @@
 
     .tb3hrve {
         color: var(--ctp-frappe-subtext0);
+    }
+
+    .HurricaneBanner--default {
+        background: var(--ctp-frappe-crust);
+        border-bottom-color: var(--ctp-frappe-surface0);
+    }
+
+    .HurricaneBanner--default .HurricaneBanner-text {
+        color: var(--ctp-frappe-text);
+    }
+
+    .StudyModesNavSectionTitle {
+        color: var(--ctp-frappe-text);
+    }
+
+    .cgkxufs {
+        background: var(--ctp-frappe-crust);
+        border-bottom-color: var(--ctp-frappe-overlay0);
+    }
+
+    .TeacherChoosePageView-gameTypeOption {
+        background-color: var(--ctp-frappe-mantle);
+    }
+
+    .TeacherChoosePageView-gameTypes--text {
+        color: var(--ctp-frappe-text);
+    }
+
+    .TeacherChoosePageView-gameTypes--description {
+        color: var(--ctp-frappe-subtext0);
+    }
+
+    .TeacherChoosePageView-gameTypes--cta,
+    .CardContent-cta {
+        color: var(--ctp-frappe-blue);
+    }
+
+    .TeacherChoosePageView-gameTypeOption:hover,
+    .PlayModeCard:hover {
+        border-bottom-color: var(--ctp-frappe-yellow);
+    }
+
+    .PlayModeCard:active,
+    .PlayModeCard:focus:not(:active):not(:hover),
+    html.cursor .PlayModeCard:hover,
+    html.cursor .PlayModeCard:hover:visited {
+        border-color: var(--ctp-frappe-yellow);
+    }
+
+    .PlayModeCard {
+        background-color: var(--ctp-frappe-mantle);
+    }
+
+    .CardContent-option {
+        background: var(--ctp-frappe-crust);
+        color: var(--ctp-frappe-text);
+    }
+
+    .CardContent-text,
+    .CardContent-title {
+        color: var(--ctp-frappe-text);
+    }
+
+    .TeacherLobbyView-join {
+        background-color: var(--ctp-frappe-mantle);
+    }
+
+    .TeacherLobbyView .UIFloatedCard,
+    .TeacherStartGameView-side,
+    .TeacherEndView-side {
+        background: var(--ctp-frappe-crust);
+    }
+
+    .theme-night .TeacherLobbyView .UIFloatedCard {
+        border-color: var(--ctp-frappe-overlay2);
+    }
+
+    .TeacherLobbyView-join--instructionLink .UIButton {
+        color: var(--ctp-frappe-blue);
+    }
+
+    .TeacherLobbyView-player:hover {
+        color: var(--ctp-frappe-red);
+    }
+
+    .td5er02 .UIFloatedCard {
+        background-color: var(--ctp-frappe-mantle);
+    }
+
+    .TermStat--perfectTerms .TermStat-header {
+        background-color: var(--ctp-frappe-green);
+    }
+
+    .TermStat-header {
+        color: var(--ctp-frappe-mantle);
+    }
+
+    .TermStatGroup-navProgress {
+        color: var(--ctp-frappe-subtext0\1)
+    }
+
+    .TeacherEndView-side--bottomButton .UIButton.UIButton--whiteBorderRounded {
+        color: var(--ctp-frappe-text);
+    }
+
+    .SegmentedControl.SegmentedControl--quizletBlue .SegmentedControl-navItem.is-active,
+    .segmented-control.SegmentedControl--quizletBlue .SegmentedControl-navItem.is-active {
+        background: var(--ctp-frappe-lavender);
+        color: var(--ctp-frappe-crust);
+    }
+
+    .StudyWhileWaitingView {
+        background-color: var(--ctp-frappe-base);
+    }
+
+    .firefox .CardsList.CardsList--showSingle .CardsItem .CardsItemSide .CardsItemInner,
+    .ie11 .CardsList.CardsList--showSingle .CardsItem .CardsItemSide .CardsItemInner,
+    .webkit .CardsList.CardsList--showSingle .CardsItem .CardsItemSide .CardsItemInner {
+        background-color: var(--ctp-frappe-mantle);
+    }
+
+    .StudentTeamView-teamInner {
+        background-color: var(--ctp-frappe-mantle);
+    }
+
+    .StudentAnswerOption .UIButton {
+        background-color: var(--ctp-frappe-mantle) !important;
+    }
+
+    .StudentAnswerOption .UIButton:active,
+    html.cursor .StudentAnswerOption .UIButton:hover,
+    html.cursor .StudentAnswerOption .UIButton:hover:visited {
+        border-color: var(--ctp-frappe-yellow);
+    }
+
+    .StudentPlayingHeader {
+        background: var(--ctp-frappe-crust);
+    }
+
+    .StudentLeaderboard-headstart {
+        background: var(--ctp-frappe-blue);
+    }
+
+    .StudentLeaderboard {
+        background: var(--ctp-frappe-lavender);
+    }
+
+    .StudentLeaderboard-team {
+        background: var(--ctp-frappe-blue);
+    }
+
+    .StudentGameboard-feedback.is-incorrectAnswer {
+        background: var(--ctp-frappe-red);
+    }
+
+    .StudentAnswerOption.is-showingIncorrectFeedback.StudentAnswerOption .UIButton {
+        background: var(--ctp-frappe-red) !important;
+    }
+
+    .StudentAnswerOption.is-showingCorrectFeedback.StudentAnswerOption .UIButton {
+        background: var(--ctp-frappe-green) !important;
+    }
+
+    .StudentIncorrectAnswerFeedback-section--correct .StudentIncorrectAnswerFeedback-heading {
+        color: var(--ctp-frappe-green);
+    }
+
+    .TermStat--learnedTerms .TermStat-header {
+        background-color: var(--ctp-frappe-red);
+    }
+
+    .TeacherChoosePageView-gameTypeOption:active,
+    .TeacherChoosePageView-gameTypeOption:focus:not(:active):not(:hover),
+    html.cursor .TeacherChoosePageView-gameTypeOption:hover,
+    html.cursor .TeacherChoosePageView-gameTypeOption:hover:visited {
+        border-color: var(--ctp-frappe-yellow);
+    }
+
+    .tllqvk3,
+    .c1tmoumb {
+        background-color: var(--ctp-frappe-mantle)
     }
 }

@@ -502,7 +502,7 @@
         color: var(--ctp-macchiato-blue);
     }
 
-    .NotificationBadge-container {
+    .SiteActivity-button .NotificationBadge-container {
         background-color: var(--ctp-macchiato-blue);
     }
 
@@ -629,11 +629,11 @@
         border-color: var(--ctp-macchiato-green);
         color: var(--ctp-macchiato-blue);
     }
-    
+
     .kahyre1.l40n85g {
         color: var(--ctp-macchiato-green);
     }
-    
+
     .soyu1j6.l40n85g {
         color: var(--ctp-macchiato-red)
     }
@@ -2059,7 +2059,7 @@
     }
 
     .f1sxiitf {
-        background: linear-gradient(var(--ctp-macchiato-mantle), var(--ctp-macchiato-base));
+        background: none;
     }
 
     .c1ext0pg {
@@ -2118,5 +2118,186 @@
 
     .tb3hrve {
         color: var(--ctp-macchiato-subtext0);
+    }
+
+    .HurricaneBanner--default {
+        background: var(--ctp-macchiato-crust);
+        border-bottom-color: var(--ctp-macchiato-surface0);
+    }
+
+    .HurricaneBanner--default .HurricaneBanner-text {
+        color: var(--ctp-macchiato-text);
+    }
+
+    .StudyModesNavSectionTitle {
+        color: var(--ctp-macchiato-text);
+    }
+
+    .cgkxufs {
+        background: var(--ctp-macchiato-crust);
+        border-bottom-color: var(--ctp-macchiato-overlay0);
+    }
+
+    .TeacherChoosePageView-gameTypeOption {
+        background-color: var(--ctp-macchiato-mantle);
+    }
+
+    .TeacherChoosePageView-gameTypes--text {
+        color: var(--ctp-macchiato-text);
+    }
+
+    .TeacherChoosePageView-gameTypes--description {
+        color: var(--ctp-macchiato-subtext0);
+    }
+
+    .TeacherChoosePageView-gameTypes--cta,
+    .CardContent-cta {
+        color: var(--ctp-macchiato-blue);
+    }
+
+    .TeacherChoosePageView-gameTypeOption:hover,
+    .PlayModeCard:hover {
+        border-bottom-color: var(--ctp-macchiato-yellow);
+    }
+
+    .PlayModeCard:active,
+    .PlayModeCard:focus:not(:active):not(:hover),
+    html.cursor .PlayModeCard:hover,
+    html.cursor .PlayModeCard:hover:visited {
+        border-color: var(--ctp-macchiato-yellow);
+    }
+
+    .PlayModeCard {
+        background-color: var(--ctp-macchiato-mantle);
+    }
+
+    .CardContent-option {
+        background: var(--ctp-macchiato-crust);
+        color: var(--ctp-macchiato-text);
+    }
+
+    .CardContent-text,
+    .CardContent-title {
+        color: var(--ctp-macchiato-text);
+    }
+
+    .TeacherLobbyView-join {
+        background-color: var(--ctp-macchiato-mantle);
+    }
+
+    .TeacherLobbyView .UIFloatedCard,
+    .TeacherStartGameView-side,
+    .TeacherEndView-side {
+        background: var(--ctp-macchiato-crust);
+    }
+
+    .theme-night .TeacherLobbyView .UIFloatedCard {
+        border-color: var(--ctp-macchiato-overlay2);
+    }
+
+    .TeacherLobbyView-join--instructionLink .UIButton {
+        color: var(--ctp-macchiato-blue);
+    }
+
+    .TeacherLobbyView-player:hover {
+        color: var(--ctp-macchiato-red);
+    }
+
+    .td5er02 .UIFloatedCard {
+        background-color: var(--ctp-macchiato-mantle);
+    }
+
+    .TermStat--perfectTerms .TermStat-header {
+        background-color: var(--ctp-macchiato-green);
+    }
+
+    .TermStat-header {
+        color: var(--ctp-macchiato-mantle);
+    }
+
+    .TermStatGroup-navProgress {
+        color: var(--ctp-macchiato-subtext0\1)
+    }
+
+    .TeacherEndView-side--bottomButton .UIButton.UIButton--whiteBorderRounded {
+        color: var(--ctp-macchiato-text);
+    }
+
+    .SegmentedControl.SegmentedControl--quizletBlue .SegmentedControl-navItem.is-active,
+    .segmented-control.SegmentedControl--quizletBlue .SegmentedControl-navItem.is-active {
+        background: var(--ctp-macchiato-lavender);
+        color: var(--ctp-macchiato-crust);
+    }
+
+    .StudyWhileWaitingView {
+        background-color: var(--ctp-macchiato-base);
+    }
+
+    .firefox .CardsList.CardsList--showSingle .CardsItem .CardsItemSide .CardsItemInner,
+    .ie11 .CardsList.CardsList--showSingle .CardsItem .CardsItemSide .CardsItemInner,
+    .webkit .CardsList.CardsList--showSingle .CardsItem .CardsItemSide .CardsItemInner {
+        background-color: var(--ctp-macchiato-mantle);
+    }
+
+    .StudentTeamView-teamInner {
+        background-color: var(--ctp-macchiato-mantle);
+    }
+
+    .StudentAnswerOption .UIButton {
+        background-color: var(--ctp-macchiato-mantle) !important;
+    }
+
+    .StudentAnswerOption .UIButton:active,
+    html.cursor .StudentAnswerOption .UIButton:hover,
+    html.cursor .StudentAnswerOption .UIButton:hover:visited {
+        border-color: var(--ctp-macchiato-yellow);
+    }
+
+    .StudentPlayingHeader {
+        background: var(--ctp-macchiato-crust);
+    }
+
+    .StudentLeaderboard-headstart {
+        background: var(--ctp-macchiato-blue);
+    }
+
+    .StudentLeaderboard {
+        background: var(--ctp-macchiato-lavender);
+    }
+
+    .StudentLeaderboard-team {
+        background: var(--ctp-macchiato-blue);
+    }
+
+    .StudentGameboard-feedback.is-incorrectAnswer {
+        background: var(--ctp-macchiato-red);
+    }
+
+    .StudentAnswerOption.is-showingIncorrectFeedback.StudentAnswerOption .UIButton {
+        background: var(--ctp-macchiato-red) !important;
+    }
+
+    .StudentAnswerOption.is-showingCorrectFeedback.StudentAnswerOption .UIButton {
+        background: var(--ctp-macchiato-green) !important;
+    }
+
+    .StudentIncorrectAnswerFeedback-section--correct .StudentIncorrectAnswerFeedback-heading {
+        color: var(--ctp-macchiato-green);
+    }
+
+    .TermStat--learnedTerms .TermStat-header {
+        background-color: var(--ctp-macchiato-red);
+    }
+
+    .TeacherChoosePageView-gameTypeOption:active,
+    .TeacherChoosePageView-gameTypeOption:focus:not(:active):not(:hover),
+    html.cursor .TeacherChoosePageView-gameTypeOption:hover,
+    html.cursor .TeacherChoosePageView-gameTypeOption:hover:visited {
+        border-color: var(--ctp-macchiato-yellow);
+    }
+
+    .tllqvk3,
+    .c1tmoumb {
+        background-color: var(--ctp-macchiato-mantle)
     }
 }
